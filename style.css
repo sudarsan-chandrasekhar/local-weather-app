@@ -1,0 +1,76 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #222222;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  min-width: 350px;
+  text-align: center;
+}
+
+#error {
+	font-size: 1.5em;
+	margin: 1em 0 0 2em;
+  text-align: left;
+}
+
+#error a {
+	color: #328CBF;
+	text-decoration: underline;
+}
+
+#city {
+  
+  font-size: 4em;
+  color: white !important;
+  
+}
+
+#temperature {
+	
+  font-size: 3em;
+  color: white !important;
+ 
+}
+
+#weather-conditions,
+#wind {
+  background-color: #93AFC4;
+  background-color: rgba(147, 175, 196, .4);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: .2em .2em .2em #222;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: .6em;
+  min-height: 6em;
+  min-width: 14em;
+  padding-top: 1em;
+  
+}
+.wi {
+  font-size: 2em;
+}
+
+footer {
+  
+  background-color: black;
+  color: gray;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+
+}
+
